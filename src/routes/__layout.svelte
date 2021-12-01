@@ -21,6 +21,7 @@
 
 <svelte:head>
 	<link rel="icon" type="image/png" href="/favicon.png" crossorigin="use-credentials" />
+	<link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
 	<link rel="apple-touch-icon" href="/logo-192.png" />
 	{#if appconfig.env !== "production"}
 		<meta name="robots" content="noindex" />
