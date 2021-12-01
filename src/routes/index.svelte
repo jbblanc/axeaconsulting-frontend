@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Seo from "$components/SEO.svelte";
 	import Logo from "$components/Logo.svelte";
-	import { isPhone } from "$stores/media";
 </script>
 
 <Seo />
@@ -15,7 +14,7 @@
 				<div>web + api + blockchain</div>
 			</div>
 			<div
-				class="grid items-center justify-items-center md:justify-items-start md:pl-4">
+				class="grid items-center justify-items-center mt-4 md:justify-items-start md:pl-4">
 				formations
 			</div>
 		</div>
