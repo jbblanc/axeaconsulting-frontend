@@ -1,10 +1,12 @@
 <script lang="ts">
 	import Seo from "$components/SEO.svelte";
 	import Logo from "$components/Logo.svelte";
+import GoogleStructuredData from "$components/GoogleStructuredData.svelte";
 </script>
 
 <Seo />
-<!-- ADD GA + Google Structured Data-->
+<GoogleStructuredData />
+<!-- ADD GAnalytics-->
 <div class="flex items-center justify-center h-screen w-full bg-brand-blue-light">
 	<div class="flex-row">
 		<div class="flex justify-center"><div class="w-2/5"><Logo /></div></div>
